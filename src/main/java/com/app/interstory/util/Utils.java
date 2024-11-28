@@ -13,7 +13,6 @@ public class Utils {
         int dotIndex = originalFilename.lastIndexOf(".");
         if(dotIndex > -1)
             ext = originalFilename.substring(dotIndex); // .jpg
-
         // 형식객체
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmssSSS_");
         DecimalFormat df = new DecimalFormat("000");
